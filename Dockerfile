@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM arm32v7/node:8
 
 RUN mkdir -p /usr/src/app
 
